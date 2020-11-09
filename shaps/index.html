@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://f7deat.github.io/style.css">
+    <title>Shaps</title>
+</head>
+<body>
+    <div class="flex">
+        <div class="p-4 bg-gray-100">
+            <label>x</label>
+            <input type="number" value="60" class="mb-2"/>
+            <label>y</label>
+            <input type="number" value="60" class="mb-2"/>
+            <label>r</label>
+            <input type="number" value="50" class="mb-2"/>
+            <label>sAngle</label>
+            <input type="number" value="0" class="mb-2"/>
+            <label>eAngle</label>
+            <input type="text" value="2 * Math.PI" disabled class="mb-2"/>
+            <label>counterclockwise</label>
+            <input type="number" disabled class="mb-2"/>
+            <button class="bg-primary fw-bold text-white p-1 w-100" type="button">Draw</button>
+        </div>
+        <canvas id="canvas"></canvas>
+    </div>
+    <script src="shap.js"></script>
+</body>
+</html>
